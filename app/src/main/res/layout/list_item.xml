@@ -24,16 +24,27 @@
                 android:layout_alignParentStart="true"
                 android:text="Title"
                 android:textColor="@color/black"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
+
         </RelativeLayout>
+
         <TextView
-            android:id="@+id/tv_title1"
+            android:id="@+id/tv_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="Title"
+            android:text="Note"
             android:textColor="@color/black"
-            android:textSize="18dp" />
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
